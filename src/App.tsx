@@ -1,7 +1,13 @@
+import { ExpirienceBar } from './components/ExpirienceBar';
+import './styles/global.css'
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+  <div className="Container">
+   <ExpirienceBar /> 
+
+   
+   </div>
   );
 }
 
